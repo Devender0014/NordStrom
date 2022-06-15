@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    #nav{
+        display: flex;
+        
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        height: 25px;
+        justify-content: center;
+        align-items: center;
+        /* width: 113%; */
+        justify-content: space-around;
+        /* padding-left: 140px; */
+    }
+    #nav > h3 > img{
+        border-radius: 100%;
+        width: 20px;
+    }
+    #nav2{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    #nav2 > button{
+        padding: 5px;
+        /* font-size: 10px; */
+        border: none;
+        background-color: transparent;
+    }
+    #nav3{
+        display: flex;
+        justify-content: space-around;
+        font-size: 15px;
+        
+        border-top: 1px solid;
+        padding-top: 10px;
+        width: 90%;
+        margin: auto;
+        margin-top: 25px;
+        cursor: pointer;
+        color: black;
+        
+        
+    }
+    #nav3:hover{
+        text-decoration: underline;
+    }
+    #div4{
+        width: 35%;
+        font-size: 15px;
+        margin: auto;
+        margin-top: 20px;
+        /* border: 1px solid; */
+        text-align: center;
+        
+    }
+    #div4 > button{
+        margin-top: 10px;
+        padding: 6px;
+        width: 85%;
+        font-size: 15px;
+        background-color: transparent;
+        border: 1px solid;
+    }
+     img{
+        width: 100%;
+        cursor: pointer;
+    }
+    #div5{
+       
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        position: relative;
+        
+    }
+    #div5 > button{
+        
+        position: absolute;
+        font-size: 40px;
+        padding: 10px;
+    }
+    
+    #div5 > button:nth-child(2){
+        left: 10px;
+        top: 20%;
+        border: none;
+        color: transparent;
+        background-color: transparent;
+
+    }
+    #div5 > button:nth-child(3){
+        /* position: absolute; */
+        right: 10px;
+        top: 20%;
+        color: transparent;
+        background-color: transparent;
+        border: none;
+
+    }
+    #div5 > button:hover{
+        background-color: gray;
+        color: white;
+        
+    }
+   
+    #div6{
+        font-size: 12px;
+        text-align: center;
+        background-color: rgb(246,246,236);
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #div61{
+        display: grid;
+        grid-template-columns: repeat(7,auto);
+        grid-template-rows: auto;
+        gap: 10px;
+        font-size: 15px;
+        /* border: 1px solid; */
+        /* background-color: rgb(246,246,236); */
+        width: 95%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    #div61 > div{
+        border: 1px solid;
+        padding: 5px;
+        background-color: white;
+        
+    }
+    #div7{
+        display: flex;
+        
+        margin-top: 12px;
+        width: 90%;
+        margin: auto;
+        background-color: rgb(246,246,236);
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+    }
+   
+    #div7 > div:first-child{
+        width: 90%;
+        padding-left: 50px;
+    }
+    #div9{
+        position: relative;
+    }
+    #div9 > button{
+        
+        position: absolute;
+        font-size: 40px;
+        /* font-style: italic; */
+        padding: 10px;
+    }
+    #div9 > button:nth-child(2){
+        left: 30px;
+        top: 40%;
+        border: none;
+        color: transparent;
+        background-color: transparent;
+
+    }
+    #div9 > button:nth-child(3){
+        /* position: absolute; */
+        right: 30px;
+        top: 40%;
+        color: transparent;
+        background-color: transparent;
+        border: none;
+
+    }
+    #div9 > button:hover{
+        background-color: gray;
+        color: white;
+        
+    }
+    #head{
+        text-align: start;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #div8{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+        width: 90%;
+        gap: 10px;
+        margin: auto;
+        margin-top: 12px;
+    }
+    #div10{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        margin-top: 80px;
+        /* border: 1px solid; */
+        justify-content: start;
+        align-items: center;
+        
+    }
+    #div10 > div > img{
+        width: 140%;
+        height: 400px;
+    }
+    #text{
+        width: 500px;
+        /* padding: 10px; */
+    }
+    #div10{
+        position: relative;
+    }
+    #div10 > button{
+        
+        position: absolute;
+        font-size: 40px;
+        /* font-style: italic; */
+        padding: 10px;
+    }
+    #div10 > button:nth-child(3){
+        left: 10px;
+        top: 45%;
+        border: none;
+        color: transparent;
+        background-color: transparent;
+
+    }
+    #div10 > button:nth-child(4){
+        /* position: absolute; */
+        right: 20px;
+        top: 40%;
+        color: transparent;
+        background-color: transparent;
+        border: none;
+
+    }
+    #div10 > button:hover{
+        background-color: gray;
+        color: white;
+        
+    }
+    #div11{
+        font-size: 13px;
+        text-align: center;
+        
+        border-top: 1px solid;
+        padding-top: 50px;
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    #div12{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 90%;
+        margin: auto;
+        gap: 10px;
+        margin-top: 40px;
+        
+    }
+</style>
+<body>
+    <div id="nav">
+        <h3>Shipping outside of U.S or Canada? <u>Learn About International Shipping</u></h3>
+        
+        <h3><img src="https://n.nordstrommedia.com/alias/IN.gif" alt=""> India</h3>
+    </div>
+    <div id="nav2">
+        <h1>NORDSTROM</h1>
+        <input type="search">
+        <button>Sign In </button>
+        <!-- <img src="nord bag.PNG" alt=""> -->
+    </div>
+    <div id="nav3">
+        <h4>Sale</h4>
+        <h4>Women</h4>
+        <h4>Men</h4>
+        <h4>Kids</h4>
+        <h4>Young Adults</h4>
+        <h4>Activewear</h4>
+        <h4>Home</h4>
+        <h4>Beauty</h4>
+        <h4>Designer</h4>
+        <h4>Gifts</h4>
+        <h4>Brands</h4>
+    </div>
+    <div id="div4">
+        <p>Shop What you love-faster and easier.</p>
+        <button>Sign In or Create an Account</button>
+    </div>
+    <div id="div5">
+        <img src="https://n.nordstrommedia.com/id/ab6aebc0-9fad-41f1-9bdf-3738883d7a09.gif?h=200&amp;w=1608" alt="">
+        <button><</button>
+        <button>></button>
+    </div>
+    <div id="div6">
+        <img src="https://n.nordstrommedia.com/id/bb574db4-a71e-4b2c-9e8d-26f02f61ec2a.gif?h=247&w=1332" alt="" >
+        <p>Need a perfect gift by Father's Day? You can still get it in time with expedited shipping and store pickup options. See delivery dates at checkout.</p>
+        <div id="div61">
+            <div>OUR GIFT GUIDE</div>
+            <div>FATHERS DAY GIFTS</div>
+            <div>POP-IN GIFTS</div>
+            <div>GIFT CARDS</div>
+            <div>GROOMING & COLOGNE GIFTS</div>
+            <div>HOME & OUTDOOR GIFTS</div>
+            <div>LUXE GIFTS</div>
+        </div>
+        <div id="div9">
+            <img src="https://n.nordstrommedia.com/id/d2fb0a28-fce0-4356-a893-885aaff4c62b.jpeg?h=622&amp;w=1608">
+            <button><</button>
+            <button>></button>
+        </div>
+        
+    </div>
+    <div id="div7">
+        <div>
+            <p>Give Dads & Grads $150 in Gift Cards, Earn a $25 Promo card</p>
+            <p>Online only. Ends June 19 at 11:59pm ET. Restrictions apply.</p>
+            <p><u>Shop Gift Cards & See Restrictions</u></p>
+
+        </div>
+        <div>
+            <img src="C:\Users\Dharmesh\Desktop\NORD Project\Nord\class2022.PNG">
+            
+        </div>
+    </div>
+   
+    <div id="head">
+        <h2>Great deals on popular items</h2>
+        <p>New markdowns on our best-sellers</p>
+    </div>
+    <div id="div8">
+        
+    </div>
+    <div id="div10">
+        <div><img src="https://n.nordstrommedia.com/id/94e65d35-cd7b-46a6-903f-8cd44fdc5a99.jpeg?h=700&amp;w=1608"></div>
+        <div id="text">
+            <h2>Go All Out</h2>
+            <p>Vibrant prints and flattering firts for summer's special occasions.</p>
+            <p><u>Wedding Guest Dresses</u></p>
+            <p><u>Wedding Guest Outfits</u></p>
+        </div>
+        <button><</button>
+        <button>></button>
+    </div>
+    <div id="div11">
+        <h2>THE THREAD</h2>
+        <p>Introduction your new go-to destination for all things fashion, beauty and lifestyle at Nordstrom, from how-tos and style inspiration to exclusive interviews and more.</p>
+        <p><u>Get Inspired</u></p>
+    </div>
+    <div id="div12">
+        <div >
+            <img  src="https://n.nordstrommedia.com/id/4899b00b-9c61-419e-b8ad-717fb24c3a5c.jpeg?h=516&amp;w=536">
+            <h4>Our Pride Stars Speak on Identity, Inclusivity & the Ballroom Community</h4>
+            <u>Read More</u>
+        </div>
+        <div>
+            <img  src="https://n.nordstrommedia.com/id/34b7d57c-72df-47bf-bff1-f5f30fe79ff0.jpeg?h=516&amp;w=536">
+            <h4>5 Swoon-Worthy Summer Outfit Ideas for All Occasions </h4>
+            <u>Read More</u>
+        </div>
+        <div>
+            <img  src="https://n.nordstrommedia.com/id/51c2cf0f-14ec-40fa-81ac-493a920e77e3.jpeg?h=516&amp;w=536">
+            <h4>Trend Report: Sexy Glam</h4>
+            <u>Read More</u>
+        </div>
+        
+    </div>
+</body>
+</html>
+
+<script>
+    let img = document.querySelector("#div5 > img")
+    // console.log(img)
+    let buttons = document.querySelectorAll("#div5 >button")
+    // console.log(buttons[0])
+    let imgArr = [
+        img1 = "https://n.nordstrommedia.com/id/ab6aebc0-9fad-41f1-9bdf-3738883d7a09.gif?h=200&amp;w=1608",
+        img2 = "https://n.nordstrommedia.com/id/07deb62c-f22f-40e0-8436-df178fc145fd.gif?h=200&amp;w=1608", 
+    ]
+    let imgnum = 0
+    buttons[0].addEventListener("click",function(){
+        if(imgnum===0){
+            imgnum=imgArr.length-1
+        }else{
+            imgnum--
+        }
+        img.src = imgArr[imgnum]
+    })
+    buttons[1].addEventListener("click",function(){
+        if(imgnum===imgArr.length-1){
+            imgnum=0
+        }else{
+            imgnum++
+        }
+        img.src = imgArr[imgnum]
+    })
+
+    let div9image = document.querySelector("#div9 > img")
+
+    let div9buttons = document.querySelectorAll("#div9 > button")
+    
+    // console.log(div71image,div71buttons)
+    let div9imgArr = [
+   
+        img1 = "https://n.nordstrommedia.com/id/30f4a509-58fe-483f-b861-2fef342c6441.jpeg?h=622&amp;w=1608", 
+        img2 = "https://n.nordstrommedia.com/id/5a88520e-8ee7-4cf0-829d-3d833b0a9af2.jpeg?h=622&amp;w=1608",
+        img3 = "https://n.nordstrommedia.com/id/d2fb0a28-fce0-4356-a893-885aaff4c62b.jpeg?h=622&amp;w=1608",
+        img4 = "https://n.nordstrommedia.com/id/ae19312f-ca77-4db9-94ee-658516ba458c.jpeg?h=622&amp;w=1608"
+    ]
+    let div9imgnum = 0
+    div9buttons[0].addEventListener("click",function(){
+        if(div9imgnum===0){
+            div9imgnum=div9imgArr.length-1
+        }else{
+            div9imgnum--
+        }
+        div9image.src = div9imgArr[div9imgnum]
+    })
+    div9buttons[1].addEventListener("click",function(){
+        if(div9imgnum===div9imgArr.length-1){
+            div9imgnum=0
+        }else{
+            div9imgnum++
+        }
+        div9image.src = div9imgArr[div9imgnum]
+    })
+
+
+
+
+
+
+
+
+
+
+
+    let productsobj = [
+        {image:"https://n.nordstrommedia.com/id/sr3/66018158-207d-4380-a644-1b223371dea2.jpeg?q=45&amp;dpr=2&amp;h=365.31&amp;w=230",
+        proname:"Caslon",
+        proprice: "INR 1633.78 (60%off)",
+        brice: "INR 4,004.45",
+        productId:"(269)"
+        },
+        {image:"https://n.nordstrommedia.com/id/sr3/66018158-207d-4380-a644-1b223371dea2.jpeg?q=45&amp;dpr=2&amp;h=365.31&amp;w=230",
+        proname:"Caslon",
+        proprice: "INR 1633.78 (60%off)",
+        brice: "INR 4,004.45",
+        productId:"(269)"
+        },
+        {image:"https://n.nordstrommedia.com/id/sr3/66018158-207d-4380-a644-1b223371dea2.jpeg?q=45&amp;dpr=2&amp;h=365.31&amp;w=230",
+        proname:"Caslon",
+        proprice: "INR 1633.78 (60%off)",
+        brice: "INR 4,004.45",
+        productId:"(269)"
+        },
+        {image:"https://n.nordstrommedia.com/id/sr3/66018158-207d-4380-a644-1b223371dea2.jpeg?q=45&amp;dpr=2&amp;h=365.31&amp;w=230",
+        proname:"Caslon",
+        proprice: "INR 1633.78 (60%off)",
+        brice: "INR 4,004.45",
+        productId:"(269)"
+        },
+        
+        
+    ]
+
+
+     productsobj.forEach(function(elem){
+        let box = document.createElement("div");
+        let avatar = document.createElement("img");
+    avatar.setAttribute("src",elem.image)
+    let name = document.createElement("p");
+    name.innerText = elem.proname;
+    let price = document.querySelector("h4");
+    price.innerText = elem.proprice;
+    
+    let beforeprice = document.createElement("p");
+    beforeprice.innerText = elem.brice;
+    beforeprice.style.textDecoration = "line-through"
+    let productId = document.createElement("p");
+    productId.innerText = elem.productId;
+
+        box.append(avatar,name,price,beforeprice,productId)
+        document.querySelector("#div8").append(box)
+        console.log(elem.image)
+    })
+
+    
+
+</script>
