@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account Page 2</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        #container {
+
+            width: 27%;
+            height: auto;
+            margin: auto;
+            font-family: 'Source Sans Pro', sans-serif;
+
+            padding: 50px 30px 60px 30px;
+            margin-top: 60px;
+            font-size: 13px;
+
+        }
+
+        #signin1 {
+            font-size: 22px;
+            font-weight: 400;
+            margin-bottom: 25px;
+        }
+
+        #text {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight:bold;
+            
+        }
+       
+
+        #email,
+        #firstname,
+        #lastname,
+        #password {
+            width: 100%;
+            height: 40px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        #button {
+            width: 100%;
+            height: 40px;
+            background-color: black;
+            color: white;
+        }
+
+        a {
+            color: black;
+        }
+
+        .icons {
+            display: flex;
+        }
+
+        .icons>p {
+            margin-left: 11px;
+            margin-bottom: 9px;
+        }
+
+        #mail {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+
+        <h2 id="signin1">Create Account</h2>
+       
+        <div style="margin: 8px 6px;">
+            <div class="icons">
+                <i class="fa-solid fa-credit-card"></i>
+                <p>Check out faster</p>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-truck"></i>
+                <p>Track orders easily</p>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-cloud"></i>
+                <p>Use one sign-in across our brands</p>
+            </div>
+        </div>
+        <p style="margin-bottom: 15px;">Required</p>
+        <label for="email">
+            Email
+        </label>
+        <div id="mail">
+            <p>noormohammed8008@gmail.com</p>
+            <a style="color: #5c5a5a;" href="">Edit</a>
+        </div>
+        <form>
+    
+            <label for="">First Name</label><br>
+            <input type="text" placeholder="" id="firstname"><br>
+            <label for="">Last Name</label><br>
+            <input type="text" placeholder="" id="lastname"><br>
+
+            <label for=""> Create Password</label><br>
+            <input type="password" placeholder="" id="password"><br>
+            <p>By tapping Next, you agree to our <a href="">Privacy Policy</a> and <a href=""> Terms & Conditions.</a>
+            </p><br><br>
+            <input type="submit" id="button" value="Create Account">
+        </form>
+    </div>
+
+
+</body>
+
+</html>
+<script>
+     let userEmailDatafromLS = JSON.parse(localStorage.getItem("userEmailData")) || [];
+    let EmailId = document.querySelector("#mail>p").innerText = userEmailDatafromLS[0].email;
+    console.log(EmailId);
+    let form = document.querySelector("form");
+    form.addEventListener("submit", myfunction);
+   
+    let userData = JSON.parse(localStorage.getItem("userData")) || [];
+    function myfunction(event) {
+        event.preventDefault();
+        let dataObj = {
+            email: EmailId,
+            firstname: form.firstname.value,
+            lastname: form.lastname.value,
+            password: form.password.value,
+
+        }
+        
+        if(checkEmails(dataObj.email)===true){
+            userData.push(dataObj);
+            localStorage.setItem("userData",JSON.stringify(userData));
+
+            window.location.href="loginpage.html";
+        }else{
+            alert("Account Already Exists");
+        }
+    };
+
+    function checkEmails(email){
+        let filter = userData.filter(function(elem){
+            return email === elem.email;
+        })
+        if(filter.length>0){
+            return false;
+        }else{
+            return true;
+        }
+    }
+</script>
