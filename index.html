@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+          #container{
+            /* border: 1px solid red; */
+            width: 100%;
+            height: auto;
+            margin-left: 20px;
+            display: grid;
+            
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(2,auto);
+            gap: 20px;
+        }
+        #container>div{
+            /* border: 1px solid red; */
+            margin: auto;
+            /* margin-left: 30px; */
+            width: 90%;
+            /* height: auto; */
+        }
+        h1{
+            margin-left: 40px;
+        }
+        #container>div img{
+          width: 300px;
+        }
+        h4{
+          text-align: center;
+        }
+        p{
+          text-align: center;
+          color: gray;
+        }
+        button{
+          display: block;
+          margin: auto;
+        }
+        #sortcart{
+            margin-left: 80%;
+            padding: 10px;
+            font-size: 20px;
+            cursor:pointer ;
+            border-radius: 10px;
+        }
+        h2{
+            margin-left: 80%;
+        }
+    </style>
+</head>
+<body>
+    <select id="sortcart" onchange="handlecartsort()">
+        <option value="">Sort by price</option>
+        <option value="Low to high">Low to high</option>
+        <option value="High to low">High to low</option>
+    </select>
+    <div id="container">  
+    </div>
+</body>
+</html>
+<script>
+    let cartfromls=JSON.parse(localStorage.getItem("cart_page"))
+    console.log(cartfromls)
+    function handlecartsort(){
+    let selected=document.querySelector("#sortcart").value
+    if(selected=="Low to high"){
+        cartfromls.sort(function(a,b){
+            return a.price-b.price;
+        })
+        display(cartfromls);
+    }
+    if(selected=="High to low"){
+        cartfromls.sort(function(a,b){
+            return b.price-a.price;
+        }) 
+        display(cartfromls);
+    }
+}
+          let total_price=0;
+         function display(homedata){
+        document.querySelector("div").innerHTML="";
+        let total_price=0;
+        homedata.forEach(function(elem,index){
+        total_price=total_price+Number(elem.price)
+
+    let box=document.createElement("div")
+    let image=document.createElement("img")
+    image.setAttribute("src",elem.image_url)
+
+    let name=document.createElement("h4")
+    name.innerText=elem.name;
+
+    let price=document.createElement("p")
+    price.innerText=elem.price;
+
+    let button=document.createElement("button")
+    button.innerText="Remove from cart"
+    button.addEventListener("click",function(){
+        deletedata(index);
+        
+    })
+
+
+    box.append(image,name,price,button)
+    document.querySelector("#container").append(box)
+    })
+      let total= document.createElement("h2")
+        document.querySelector("body").append(total)
+        total.innerText="Total: "+total_price;
+       }
+       
+     display(cartfromls);
+     function deletedata(index){
+cartfromls.splice(index,1)
+localStorage.setItem("cart_page",JSON.stringify(cartfromls))
+window.location.reload()
+     }
+
+
+
+    </script>
