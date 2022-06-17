@@ -7,7 +7,7 @@ let productData = [
     productID: "women1",
     catagory: "Casual",
     rating: "Rating : 4",
-    img: "	https://n.nordstrommedia.com/id/sr3/34aff824-70cf-457f-952b-8c2a21f94bf9.jpeg?h=365&w=240&dpr=2",
+    img: "https://n.nordstrommedia.com/id/sr3/34aff824-70cf-457f-952b-8c2a21f94bf9.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Caslon®",
@@ -47,7 +47,7 @@ let productData = [
     rating: "Rating : 4",
     productID: "women5",
     catagory: "workout",
-    img: "	https://n.nordstrommedia.com/id/sr3/9a448873-09f3-482f-8cd2-37e30a0de6c7.jpeg?h=365&w=240&dpr=2",
+    img: "https://n.nordstrommedia.com/id/sr3/9a448873-09f3-482f-8cd2-37e30a0de6c7.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Halogen®",
@@ -107,7 +107,7 @@ let productData = [
     rating: "Rating : 4",
     productID: "women11",
     catagory: "formal",
-    img: "	https://n.nordstrommedia.com/id/sr3/5024c75d-fd56-42b0-a4bc-afdb6a953759.jpeg?h=365&w=240&dpr=2",
+    img: "https://n.nordstrommedia.com/id/sr3/5024c75d-fd56-42b0-a4bc-afdb6a953759.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "NIC+ZOE",
@@ -167,7 +167,7 @@ let productData = [
     rating: "Rating : 4",
     productID: "women17",
     catagory: "party",
-    img: "	https://n.nordstrommedia.com/id/sr3/d67fd5be-c58a-4ce2-ab1f-fc7819924523.jpeg?h=365&w=240&dpr=2",
+    img: "https://n.nordstrommedia.com/id/sr3/d67fd5be-c58a-4ce2-ab1f-fc7819924523.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "NIC+ZOE",
@@ -177,7 +177,7 @@ let productData = [
     size: "S,M,XX,XXL",
     productID: "women18",
     catagory: "formal",
-    img: "	https://n.nordstrommedia.com/id/sr3/7a3a5a55-b8a7-4151-b2fb-66c8eaccb26c.jpeg?h=365&w=240&dpr=2",
+    img: "https://n.nordstrommedia.com/id/sr3/7a3a5a55-b8a7-4151-b2fb-66c8eaccb26c.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Halogen®",
@@ -247,7 +247,7 @@ let productData = [
     productID: "women25",
     rating: "Rating : 4",
     catagory: "formal",
-    img: "	https://n.nordstrommedia.com/id/sr3/78de21aa-058d-48e1-b685-7fb60305d23e.jpeg?h=365&w=240&dpr=2",
+    img: "https://n.nordstrommedia.com/id/sr3/78de21aa-058d-48e1-b685-7fb60305d23e.jpeg?h=365&w=240&dpr=2",
   },
 ];
 
@@ -260,7 +260,6 @@ function displayData(productData) {
    mainDiv.innerHTML = "";
   productData.forEach(function (el) {
     let card = document.createElement("div");
-
     let image = document.createElement("img");
     image.setAttribute("src", el.img);
     let pTag = document.createElement("h3");
