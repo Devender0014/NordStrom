@@ -257,7 +257,7 @@ let cartLs = JSON.parse(localStorage.getItem("cart-page")) || [];
 displayData(productData);
 
 function displayData(productData) {
-  mainDiv.innerHTML = "";
+   mainDiv.innerHTML = "";
   productData.forEach(function (el) {
     let card = document.createElement("div");
 
