@@ -7,22 +7,19 @@
     <title>Cart</title>
     <style>
           #container{
-            /* border: 1px solid red; */
             width: 100%;
             height: auto;
             margin-left: 20px;
             display: grid;
-            
+            justify-content: space-around;
             grid-template-columns: repeat(4,1fr);
             grid-template-rows: repeat(2,auto);
             gap: 20px;
         }
-        #container>div{
-            /* border: 1px solid red; */
-            margin: auto;
-            /* margin-left: 30px; */
+       
+        #container>div{ 
+            margin: auto; 
             width: 90%;
-            /* height: auto; */
         }
         h1{
             margin-left: 40px;
@@ -40,6 +37,7 @@
         button{
           display: block;
           margin: auto;
+          padding: 5px 10px;
         }
         #sortcart{
             margin-left: 80%;
@@ -48,12 +46,77 @@
             cursor:pointer ;
             border-radius: 10px;
         }
-        h2{
-            margin-left: 80%;
+        #total{ 
+            display: grid;
+            justify-content: space-around;
+        }
+ /*----- responsive page ------*/
+        @media all and (min-width:480px) and (max-width:720px){
+            #container{
+            
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: auto;   
+        }
+        h1{
+            text-align: center;
+        }
+        h4{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        button{
+          display: block;
+          margin: auto;
+          padding: 5px 10px;
+        }
+        #sortcart{
+            margin-left: 60%;
+            padding: 10px;
+            font-size: 20px;
+            cursor:pointer ;
+            border-radius: 10px;
+        }
+        }
+        @media all and (min-width:320px) and (max-width:479px){
+            #container{
+            
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: auto;   
+        }
+        h1{
+            text-align: center;
+        }
+        h4{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        button{
+          display: block;
+          margin: auto;
+          padding: 5px 10px;
+        }
+        #sortcart{
+            margin-left: 40%;
+            padding: 10px;
+            font-size: 20px;
+            cursor:pointer ;
+            border-radius: 10px;
+        }
+        #container>div{ 
+            margin: auto; 
+            width: 90%;
+        }
         }
     </style>
 </head>
 <body>
+
+ 
+
     <select id="sortcart" onchange="handlecartsort()">
         <option value="">Sort by price</option>
         <option value="Low to high">Low to high</option>
@@ -61,11 +124,15 @@
     </select>
     <div id="container">  
     </div>
+   
+    <div id="total">
+
+    </div>
 </body>
 </html>
-<script>
+ <script> 
     let cartfromls=JSON.parse(localStorage.getItem("cart_page"))
-    console.log(cartfromls)
+    
     function handlecartsort(){
     let selected=document.querySelector("#sortcart").value
     if(selected=="Low to high"){
@@ -84,6 +151,7 @@
           let total_price=0;
          function display(homedata){
         document.querySelector("div").innerHTML="";
+        document.querySelector("#total").innerHTML="";
         let total_price=0;
         homedata.forEach(function(elem,index){
         total_price=total_price+Number(elem.price)
@@ -101,26 +169,26 @@
     let button=document.createElement("button")
     button.innerText="Remove from cart"
     button.addEventListener("click",function(){
-        deletedata(index);
-        
+        deletedata(index);   
     })
-
-
     box.append(image,name,price,button)
     document.querySelector("#container").append(box)
     })
-      let total= document.createElement("h2")
-        document.querySelector("body").append(total)
+    
+    let total= document.createElement("h2")
+        document.querySelector("#total").append(total)
         total.innerText="Total: "+total_price;
+        let button=document.createElement("Button")
+        document.querySelector("#total").append(button)
+        button.innerText="Buy"
        }
-       
      display(cartfromls);
      function deletedata(index){
 cartfromls.splice(index,1)
 localStorage.setItem("cart_page",JSON.stringify(cartfromls))
 window.location.reload()
      }
+     
 
 
-
-    </script>
+    </script>  

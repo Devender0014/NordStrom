@@ -147,144 +147,144 @@
     },
     {
       image_url:
-        "https://content.shop4reebok.com/static/Product-FW0318/reebok_FW0318_1.jpg.plp ",
-      name: " MEN'S REEBOK RUNNING TREND SHOES",
-      price: 1575,
+        "https://n.nordstrommedia.com/id/sr3/daa82778-d65b-4d1c-b0ef-b31f84973cbd.jpeg?h=365&w=240&dpr=2 ",
+      name: " Bose® Portable Home Bluetooth® Speaker",
+      price: 2875,
       strikedoffprice: 3499,
       productid:19,
     },
     {
       image_url:
-        " https://content.shop4reebok.com/static/Product-G57776/reebok_G57776_1.jpg.plp ",
-      name: "  MEN'S REEBOK RUNNING ZTAUR RUN SHOES ",
+        " https://n.nordstrommedia.com/id/sr3/4e416ec5-9917-46b1-9d96-cb188ed4d946.jpeg?h=365&w=240&dpr=2 ",
+      name: "  JBL Clip 4 Waterproof Bluetooth® Speaker",
       price: 3499,
       strikedoffprice: 4999,
       productid:20,
     },
     {
       image_url:
-        " https://content.shop4reebok.com/static/Product-FV9555/MEN_SWIM_SLIPPERS_FV9555_1.jpg.plp  ",
-      name: "MEN'S REEBOK SWIM ULTRA FLIP SLIPPERS   ",
-      price: 749,
+        " https://n.nordstrommedia.com/id/sr3/2fa62a2b-7e26-4a6f-8f3a-c123b2881d44.jpeg?h=365&w=240&dpr=2 ",
+      name: "Baccarat Bearbrick Lead Crystal Bear  ",
+      price: 7249,
       strikedoffprice: 1499,
       productid:21,
     },
     {
       image_url:
-        "https://content.shop4reebok.com/static/Product-EX3994/reebok_EX3994_1.jpg.plp   ",
-      name: "  MEN'S REEBOK SWIM FLEX CONNECT SANDALS ",
+        "https://n.nordstrommedia.com/id/sr3/67963b86-9077-4420-ae74-146011dcbf01.jpeg?h=365&w=240&dpr=2 ",
+      name: "  MissoniHome Alfred Zigzag Cotton Bath Towel ",
       price: 1149,
       strikedoffprice: 2299,
       productid:22,
     },
     {
       image_url:
-        " https://content.shop4reebok.com/static/Product-EX4287/reebok_EX4287_1.jpg.plp  ",
-      name: " MEN'S REEBOK RUNNING GENESIS RUNNER SHOE  ",
+        " https://n.nordstrommedia.com/id/sr3/561f333f-bb31-45f8-ad65-4b75710b60b9.jpeg?h=365&w=240&dpr=2 ",
+      name: " Montblanc Meisterstück Two-Pen Sleeve ",
       price: 1620,
       strikedoffprice: 3599,
       productid:23,
     },
     {
       image_url:
-        " https://content.shop4reebok.com/static/Product-GK9180/reebok_GK9180_1.jpg.plp  ",
-      name: " MEN'S REEBOK TRAINING RUNNER SHORTS  ",
-      price: 779,
+        " https://n.nordstrommedia.com/id/sr3/52febe68-0e05-47ad-91f3-0ce474fe9f77.jpeg?h=365&w=240&dpr=2 ",
+      name: "Kartell Pilastro Stool",
+      price: 3779,
       strikedoffprice: 1299,
       productid:24,
     },
     {
       image_url:
-        " https://content.shop4reebok.com/static/Product-HB5732/reebok_HB5732_1.jpg.plp  ",
-      name: " MEN REEBOK CLASSICS TRACKSUIT HOODIE  ",
-      price: 3499,
+        " https://n.nordstrommedia.com/id/sr3/2b2d99f4-c820-496d-a26b-2f0f2f8d27a4.jpeg?h=365&w=240&dpr=2 ",
+      name: " Kartell Prince Aha Table ",
+      price: 13499,
       strikedoffprice: 4999,
       productid:25,
     },
     {
       image_url:
-        " https://content.shop4reebok.com/static/Product-HB5733/reebok_HB5733_1.jpg.plp  ",
-      name: "MEN'S REEBOK CLASSIC TRACKSUIT GOLF HOODIE   ",
+        " https://n.nordstrommedia.com/id/sr3/fd1acf5c-468f-4424-8076-2f66af2b007a.jpeg?h=365&w=240&dpr=2 ",
+      name: "Canada Pooch Soho Sweater  ",
       price: 3499,
       strikedoffprice: 4999,
       productid:26,
     },
     {
       image_url:
-        "https://content.shop4reebok.com/static/Product-FQ5364/reebok_FQ5364_1.jpg.plp   ",
-      name: " UNISEX REEBOK TRAINING ACTIVE  BAG ",
+        "https://n.nordstrommedia.com/id/sr3/025e97c6-3400-4a06-96f0-ec45309c6230.jpeg?h=365&w=240&dpr=2 ",
+      name: " Haute Diggity Dog Casamuttgos Tequila Plush Dog Toy ",
       price: 1399,
       strikedoffprice: 2799,
       productid:27,
     },
     {
       image_url:
-        "https://content.shop4reebok.com/static/Product-FW0318/reebok_FW0318_1.jpg.plp ",
-      name: " MEN'S REEBOK RUNNING TREND RUNNER SHOES",
+        "https://n.nordstrommedia.com/id/sr3/d6c38752-f013-4065-9f36-c5c1fb5d3feb.jpeg?h=365&w=240&dpr=2",
+      name: " Nordstrom Linen Throw Pillow",
       price: 1575,
       strikedoffprice: 3499,
       productid:28,
     },
     {
       image_url:
-        "https://content.shop4reebok.com/static/Product-G57705/reebok_G57705_1.jpg.plp",
-      name: "UNISEX REEBOK CLASSICS  BASKETBALL SHOES",
+        "https://n.nordstrommedia.com/id/sr3/1af9580d-87cc-4f18-824d-518b4caad419.jpeg?h=365&w=240&dpr=2",
+      name: "Nordstrom Cristina Martinez Monarch Path Accent Pillow",
       price: 3919,
       strikedoffprice: 5599,
       productid:29,
     },
     {
       image_url:
-        "https://content.shop4reebok.com/static/Product-FW0344/reebok_FW0344_1.jpg.plp",
-      name: "MEN'S REEBOK RUNNING RUN FUSION  SHOES",
+        "https://n.nordstrommedia.com/id/sr3/7bfcd72c-a2fa-4d17-9b2a-bad48ae6a756.jpeg?h=365&w=240&dpr=2",
+      name: "MAGNIBERG Pure Poplin Duvet Cover",
       price: 1620,
       strikedoffprice: 3599,
       productid:30,
     },
     {
       image_url:
-        "https://content.shop4reebok.com/static/Product-EX4272/reebok_EX4272_1.jpg.plp",
-      name: "MEN'S REEBOK RUNNING QUICK DRIFTER SHOES",
-      price: 1620,
+        "https://n.nordstrommedia.com/id/sr3/e333309c-9e08-4ec6-8f1e-b7bc2b08ec86.jpeg?h=365&w=240&dpr=2",
+      name: "MAGNIBERG Pure Sateen Duvet Cover",
+      price: 2820,
       strikedoffprice: 3599,
       productid:31,
     },
     {
       image_url:
-        "https://content.shop4reebok.com/static/Product-H02293/reebok_H02293_1.jpg.plp",
-      name: "MEN'S REEBOK DYNAMIC ZIGZAG SHOES",
+        "https://n.nordstrommedia.com/id/sr3/b4b3127c-81ea-4946-ab95-01ba953d2fdd.jpeg?h=365&w=240&dpr=2",
+      name: "Michael Aram Iris Duvet Cover",
       price: 7599,
       strikedoffprice: 9999,
       productid:32,
     },
     {
       image_url:
-        "https://content.shop4reebok.com/static/Product-FV9551/MEN_SWIM_SLIPPERS_FV9551_1.jpg.plp",
-      name: "MEN'S REEBOK SWIM SUPERSOFT FLIP SLIPPERS",
-      price: 909,
+        "https://n.nordstrommedia.com/id/sr3/d9104e83-5c6f-412e-b7d1-c8d315fe0848.jpeg?h=365&w=240&dpr=2",
+      name: "MAGNIBERG Wall Street Oxford Pillowcase",
+      price: 1909,
       strikedoffprice: 1299,
       productid:33,
     },
     {
       image_url:
-        "https://content.shop4reebok.com/static/Product-HC3528/reebok_HC3528_1.jpg.plp",
-      name: "MEN'S REEBOK TRAINING ACTIVE BASIC POLO TEE",
-      price: 779,
+        "https://n.nordstrommedia.com/id/sr3/770d676e-b2b1-4a18-a67a-18ffa98073fe.jpeg?h=365&w=240&dpr=2",
+      name: "Marimekko Mykero Duvet Cover & Sham Set",
+      price: 6779,
       strikedoffprice: 1299,
       productid:34,
     },
     {
       image_url:
-        "https://content.shop4reebok.com/static/Product-HF3794/reebok_HF3794_01.JPG.plp ",
-      name: "MEN'S REEBOK TRAINING ACTIVE MOVE TEE ",
+        "https://n.nordstrommedia.com/id/sr3/7b3b1ea4-8ec4-4395-abc0-ea7ee7dd202b.jpeg?h=365&w=240&dpr=2",
+      name: "Marimekko Unikko Duvet Cover & Sham Set ",
       price: 1749,
       strikedoffprice: 2499,
       productid:35,
     },
     {
       image_url:
-        "https://content.shop4reebok.com/static/Product-HG5456/reebok_HG5456_1.jpg.plp",
-      name: "MEN'S REEBOK FITNESS TRAINING  SWEATSHIRT",
+        "https://n.nordstrommedia.com/id/sr3/b6c3f32f-dd8c-4243-ac21-c2f0831f4cfb.jpeg?h=365&w=240&dpr=2",
+      name: "MAGNIBERG Nude Metallic Pillowcase",
       price: 1079,
       strikedoffprice: 1799,
       productid:36,
