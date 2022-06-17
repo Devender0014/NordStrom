@@ -131,7 +131,7 @@
 </html>
 <script>
      let userEmailDatafromLS = JSON.parse(localStorage.getItem("userEmailData")) || [];
-    let EmailId = document.querySelector("#mail>p").innerText = userEmailDatafromLS[0].email;
+    let EmailId = document.querySelector("#mail>p").innerText = userEmailDatafromLS[(Object.keys(userEmailDatafromLS).length-1)].email;
     console.log(EmailId);
     let form = document.querySelector("form");
     form.addEventListener("submit", myfunction);
