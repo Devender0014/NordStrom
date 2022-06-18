@@ -78,6 +78,44 @@
     color: orange;
     cursor: pointer;
   }
+
+/* footer css */
+#container{
+  display: grid;
+  grid-template-columns: 75% 25%;
+  /* width: 90%; */
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgb(249,249,249);
+  padding: 20px;
+}
+#c1{
+  display: flex;
+  gap: 10px;
+
+}
+#c2{
+  padding-left: 30px;
+}
+#c1 img{
+  width: 20px;
+  border-radius: 100%;
+}
+#c1 > h4,p{
+  padding-top: 20px;
+  color: gray;
+}
+#c2 img{
+  width: 25px;
+  padding: 1px;
+  padding-top: 20px;
+}
+#div27{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
+
   @media all and (min-width:480px) and (max-width:720px){
     #parent {
         margin: auto;

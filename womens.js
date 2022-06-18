@@ -7,7 +7,7 @@ let productData = [
     productID: "women1",
     catagory: "Casual",
     rating: "Rating : 4",
-    img: "https://n.nordstrommedia.com/id/sr3/34aff824-70cf-457f-952b-8c2a21f94bf9.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/34aff824-70cf-457f-952b-8c2a21f94bf9.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Caslon®",
@@ -17,7 +17,7 @@ let productData = [
     productID: "women2",
     rating: "Rating : 4",
     catagory: "festive",
-    img: "https://n.nordstrommedia.com/id/sr3/c8066fe3-7335-43f2-b36d-33360196ab5c.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/c8066fe3-7335-43f2-b36d-33360196ab5c.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Halogen®",
@@ -27,7 +27,7 @@ let productData = [
     size: "M,L,XX,XXS",
     productID: "women3",
     catagory: "party",
-    img: "https://n.nordstrommedia.com/id/sr3/a82e939a-6c2d-4786-94d9-1b907a739ef1.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/a82e939a-6c2d-4786-94d9-1b907a739ef1.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Polo Ralph Lauren",
@@ -37,7 +37,7 @@ let productData = [
     rating: "Rating : 4",
     productID: "women4",
     catagory: "formal",
-    img: "https://n.nordstrommedia.com/id/sr3/771a2b0e-2f54-4b35-9296-55a50376e9fe.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/771a2b0e-2f54-4b35-9296-55a50376e9fe.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "La Blanca",
@@ -47,7 +47,7 @@ let productData = [
     rating: "Rating : 4",
     productID: "women5",
     catagory: "workout",
-    img: "https://n.nordstrommedia.com/id/sr3/9a448873-09f3-482f-8cd2-37e30a0de6c7.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/9a448873-09f3-482f-8cd2-37e30a0de6c7.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Halogen®",
@@ -57,7 +57,7 @@ let productData = [
     rating: "Rating : 4",
     productID: "women6",
     catagory: "travel",
-    img: "https://n.nordstrommedia.com/id/sr3/404f470f-1824-45aa-a482-10dc7f40e85a.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/404f470f-1824-45aa-a482-10dc7f40e85a.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Halogen®",
@@ -67,7 +67,7 @@ let productData = [
     rating: "Rating : 4",
     productID: "women7",
     catagory: "sports",
-    img: "https://n.nordstrommedia.com/id/sr3/998566fc-d5e3-458a-866b-09395fc7f91f.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/998566fc-d5e3-458a-866b-09395fc7f91f.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Sweaty Betty",
@@ -77,7 +77,7 @@ let productData = [
     productID: "women8",
     rating: "Rating : 4",
     catagory: "Casual",
-    img: "https://n.nordstrommedia.com/id/sr3/4668bc26-8f6b-4686-869c-67bacf32bd44.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/4668bc26-8f6b-4686-869c-67bacf32bd44.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Nordstrom",
@@ -87,7 +87,7 @@ let productData = [
     rating: "Rating : 4",
     productID: "women9",
     catagory: "festive",
-    img: "https://n.nordstrommedia.com/id/sr3/a56b5ccc-6830-405b-afb9-3cb23efbaceb.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/a56b5ccc-6830-405b-afb9-3cb23efbaceb.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Halogen®",
@@ -97,7 +97,7 @@ let productData = [
     size: "X,L,XX",
     productID: "women10",
     catagory: "party",
-    img: "https://n.nordstrommedia.com/id/sr3/0132cf01-a7d3-4fda-9dc3-5d0c2fcd2bd8.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/0132cf01-a7d3-4fda-9dc3-5d0c2fcd2bd8.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Barefoot Dreams®",
@@ -107,7 +107,7 @@ let productData = [
     rating: "Rating : 4",
     productID: "women11",
     catagory: "formal",
-    img: "https://n.nordstrommedia.com/id/sr3/5024c75d-fd56-42b0-a4bc-afdb6a953759.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/5024c75d-fd56-42b0-a4bc-afdb6a953759.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "NIC+ZOE",
@@ -117,7 +117,7 @@ let productData = [
     rating: "Rating : 4",
     productID: "women12",
     catagory: "workout",
-    img: "https://n.nordstrommedia.com/id/sr3/2e8d5d15-5edd-4577-aadc-4f2ad483d263.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/2e8d5d15-5edd-4577-aadc-4f2ad483d263.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "BP.",
@@ -127,7 +127,7 @@ let productData = [
     size: "S,X,L,XXl",
     productID: "women13",
     catagory: "travel",
-    img: "https://n.nordstrommedia.com/id/sr3/80910ca5-b113-4df7-adaf-464894ab25f7.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/80910ca5-b113-4df7-adaf-464894ab25f7.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Halogen®",
@@ -137,7 +137,7 @@ let productData = [
     size: "S,M,X,XXL",
     productID: "women14",
     catagory: "sports",
-    img: "https://n.nordstrommedia.com/id/sr3/236b127c-5530-4841-a79d-c3911a246db4.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/236b127c-5530-4841-a79d-c3911a246db4.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Barefoot Dreams®",
@@ -147,7 +147,7 @@ let productData = [
     size: "S,M,X,XXL",
     productID: "women15",
     catagory: "Casual",
-    img: "https://n.nordstrommedia.com/id/sr3/a82feccc-47f2-4bd2-a315-cdd2423fab2a.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/a82feccc-47f2-4bd2-a315-cdd2423fab2a.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Eliza J",
@@ -157,7 +157,7 @@ let productData = [
     size: "S,M,L,XXL",
     productID: "women16",
     catagory: "festive",
-    img: "https://n.nordstrommedia.com/id/sr3/d2a95ab6-e8ae-4bf9-9c84-07629233af61.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/d2a95ab6-e8ae-4bf9-9c84-07629233af61.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Treasure & Bond",
@@ -167,7 +167,7 @@ let productData = [
     rating: "Rating : 4",
     productID: "women17",
     catagory: "party",
-    img: "https://n.nordstrommedia.com/id/sr3/d67fd5be-c58a-4ce2-ab1f-fc7819924523.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/d67fd5be-c58a-4ce2-ab1f-fc7819924523.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "NIC+ZOE",
@@ -177,7 +177,7 @@ let productData = [
     size: "S,M,XX,XXL",
     productID: "women18",
     catagory: "formal",
-    img: "https://n.nordstrommedia.com/id/sr3/7a3a5a55-b8a7-4151-b2fb-66c8eaccb26c.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/7a3a5a55-b8a7-4151-b2fb-66c8eaccb26c.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Halogen®",
@@ -187,7 +187,7 @@ let productData = [
     size: "M,XXL,XX",
     productID: "women19",
     catagory: "workout",
-    img: "https://n.nordstrommedia.com/id/sr3/142f8270-303a-467a-9de8-003d64a0f19e.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/142f8270-303a-467a-9de8-003d64a0f19e.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Madewell",
@@ -197,7 +197,7 @@ let productData = [
     size: "M,X,L,XXL",
     productID: "women20",
     catagory: "travel",
-    img: "https://n.nordstrommedia.com/id/sr3/3622acb2-b369-4580-bdd2-27286f2c3aa3.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/3622acb2-b369-4580-bdd2-27286f2c3aa3.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "NIC+ZOE",
@@ -207,7 +207,7 @@ let productData = [
     size: "M,L,XXL",
     productID: "women21",
     catagory: "sport",
-    img: "https://n.nordstrommedia.com/id/sr3/2f75009e-4c41-4a06-9017-a754757a3377.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/2f75009e-4c41-4a06-9017-a754757a3377.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "GaNIC+ZOE",
@@ -217,7 +217,7 @@ let productData = [
     size: "S,XX",
     productID: "women22",
     catagory: "Casual",
-    img: "https://n.nordstrommedia.com/id/sr3/41b42827-cc34-480c-9fee-f7acd6a4220a.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/41b42827-cc34-480c-9fee-f7acd6a4220a.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Eliza J",
@@ -227,7 +227,7 @@ let productData = [
     rating: "Rating : 4",
     productID: "women23",
     catagory: "festive",
-    img: "https://n.nordstrommedia.com/id/sr3/43fddc8f-ee6f-413b-bb68-5eed5bfd2453.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/43fddc8f-ee6f-413b-bb68-5eed5bfd2453.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "Halogen®",
@@ -237,7 +237,7 @@ let productData = [
     productID: "women24",
     rating: "Rating : 4",
     catagory: "party",
-    img: "https://n.nordstrommedia.com/id/sr3/9f9af019-b4c9-405b-9699-df7d8144bd79.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/9f9af019-b4c9-405b-9699-df7d8144bd79.jpeg?h=365&w=240&dpr=2",
   },
   {
     brand: "NIC+ZOE",
@@ -247,7 +247,7 @@ let productData = [
     productID: "women25",
     rating: "Rating : 4",
     catagory: "formal",
-    img: "https://n.nordstrommedia.com/id/sr3/78de21aa-058d-48e1-b685-7fb60305d23e.jpeg?h=365&w=240&dpr=2",
+    image_url: "https://n.nordstrommedia.com/id/sr3/78de21aa-058d-48e1-b685-7fb60305d23e.jpeg?h=365&w=240&dpr=2",
   },
 ];
 
@@ -261,7 +261,7 @@ function displayData(productData) {
   productData.forEach(function (el) {
     let card = document.createElement("div");
     let image = document.createElement("img");
-    image.setAttribute("src", el.img);
+    image.setAttribute("src", el.image_url);
     let pTag = document.createElement("h3");
     pTag.innerText = el.brand;
     let hTag = document.createElement("p");
