@@ -279,7 +279,7 @@
                 <button id="enter" ><a href="success.html">Place Order >></a> </button>
                 <div>
                     <p>Items :</p>
-                    <p></p>
+                    <p id="value"></p>
                 </div>
                 <div>
                     <p>Shipping :</p>
@@ -291,7 +291,7 @@
                 </div>
                 <div>
                     <h3>Total :</h3>
-                    <h3>(INR)</h3>
+                    <h3 id="total"></h3>
                 </div>
             </div>
 </div>
@@ -340,6 +340,12 @@
     })
 
     
+    let datatotal = JSON.parse(localStorage.getItem("datatotal"))
+    let value = document.querySelector("#value")
+    value.innerText = datatotal
+    let totalamount = document.querySelector("#total")
+    let sum = (+datatotal)+(+2817)+(+4134)
+    totalamount.innerText = "(INR)"+sum
 
     
 </script>
