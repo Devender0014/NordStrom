@@ -266,7 +266,7 @@ price.innerText=elm.price
       let cartLS=[];
       function addToCartFun(elm){
         cartLS.push(elm)
-        localStorage.setItem("cart",JSON.stringify(cartLS))
+        localStorage.setItem("cart_page",JSON.stringify(cartLS))
         alert("Product added to your Cart")
       
       }
