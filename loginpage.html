@@ -115,7 +115,7 @@
         if(checkSignin(dataObj.email,dataObj.password)===true){
             localStorage.setItem("signindata",JSON.stringify(dataObj));
             alert("Sign in successful");
-            window.location.href="homepage.html";
+            window.location.href="welcomepage.html";
         }else{
             alert("wrong email or password")
         }
