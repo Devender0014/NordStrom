@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout International | Nordstrom</title>
+    
+</head>
+<style>
+    #container{
+        display: flex;
+        /* border: 1px solid; */
+        width: 70%;
+        margin: auto;
+    }
+    #box{
+        width: 75%;
+        /* border: 1px solid; */
+    }
+    .img{
+        width: 40px;
+        height: 30px;
+    }
+    #div1{
+        display: flex;
+        justify-content: space-between;
+        /* height: 30px; */
+        /* border: 1px solid; */
+        /* justify-content: center; */
+        align-items: center;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    
+    
+    #div3{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+        border-top: 1px solid;
+        /* border: 1px solid; */
+
+    }
+    #div3 > div{
+        display: flex;
+        align-items: center;
+        /* padding: 5px; */
+        gap: 5px;
+    }
+    #div3_1{
+        width: 90%;
+        margin: auto;
+        margin-top: -30px;
+    }
+    
+    #div4{
+        /* background-color: rgb(244,244,244); */
+        border-top: 1px solid;
+        display: flex;
+        width: 90%;
+        margin: auto;
+        align-items: center;
+        gap: 5px;
+        margin-top: 40px;
+        /* border: 1px solid; */
+    }
+    #div4 >img{
+        background-color: rgb(244,244,244);
+    }
+    #div5{
+        /* display: block; */
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+        /* border: 1px solid; */
+
+    }
+    #div5 > form > input,select{
+        padding: 10px;
+        /* display: block; */
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .full{
+        width: 97%;
+    }
+    .half{
+        width: 46.57%;
+    }
+    .upper{
+        text-transform: capitalize;
+    }
+    .select{
+        width: 49.66%;
+    }
+    #table{
+        /* border: 1px solid; */
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        font-size: 20px;
+        
+    }
+    #table > thead > tr{
+        background-color: rgb(244,244,244);
+
+        
+    }
+    #table > thead > tr > th{
+        padding: 7px;
+    }
+    #table > tbody > tr > td{
+        padding: 15px;
+        margin-top: 3px;
+    }
+    #table > tbody{
+        border: 1px solid blue;
+    }
+    #button{
+        width: 40%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(61,61,61);
+        color: white;
+        margin-top: 15px;
+        height: 35px;
+    }
+
+        
+    #div6{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        gap: 10px;
+        align-items: center;
+        padding: 10px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        margin-top: 20px;
+    }
+    #div7{
+        color: gray;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #box2 > div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #box2{
+        /* border: 1px solid; */
+        width: 25%;
+        padding: 10px;
+        background-color: rgb(244,244,244);
+    }
+    #box2 > button{
+        background-color: rgb(61,61,61);
+        color: white;
+        padding: 15px;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+    }
+    #lang{
+        width: 2px;
+        height: 2px;
+        border: none;
+        padding-right: 4px;
+    }
+    #language{
+        display: flex;
+        align-items: center;
+        margin-right: 5px;
+    }
+</style>
+<body>
+    <div id="div1">
+        <h2>NORDSTROM</h2>
+        <img class="img" src="https://www.creativefabrica.com/wp-content/uploads/2020/08/12/Bag-Icon-Graphics-4941627-1.jpg" alt="">
+    </div>
+    <div id="container">
+                <div id="box">
+                <div id="div3">  
+                    <div>
+                        <img class="img" src="https://img.lovepik.com/free-png/20220117/lovepik-lock-icon-png-image_401422837_wh860.png" alt="">
+                        <h2>Secure Checkout </h2>
+                        <p>powered by Borderfree</p>
+                    </div>
+                    
+                    <div id="language">
+                        <!-- <option value="English">English</option> -->
+                        <!-- <option value=""></option> -->
+                        <option value="English">English</option>
+                        <select name="" id="lang"></select>
+                    </div>
+                </div>
+                <div id="div3_1">
+                    <p>Already have a Borderfree account? Click here.</p>
+                </div>
+                <div id="div4">
+                    <img class="img" src="data:image/png;base64,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" alt="">
+                    <h2>Delivery</h2>
+                </div>
+                <div id="div5">
+                    <form action="">
+                        <input class="full" type="text" id="email" placeholder="Email">
+                        <input class="half upper" type="text" id="fname" placeholder="First Name">
+                        <input class="half upper" type="text" id="lname" placeholder="Last Name">
+                        <input class="full upper" type="text" id="add" placeholder="Address">
+                        <input class="half upper" type="text" placeholder="Address 2 Optional">
+                        <input class="half" type="number" id="code" placeholder="Postal code">
+                        <input class="half upper" type="text" id="citY" placeholder="City">
+                        <input class="half upper" type="text" placeholder="Region (Optional)">
+                        <input class="half" type="number" id="phone" placeholder="Phone">
+                        <select class="select">
+                        <option value="India"> Location : India</option>
+                         </select>   
+                        <!-- <p></p> -->
+                            <button id="button">Continue</button>
+                        
+                    </form>
+                    
+                        
+                </div>
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Delivery Method</th>
+                            <th>Estimated Arrival</th>
+                            <th>Shipping Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Standard <br>
+                                Import charges collected upon delivery</td>
+                            <td>11-21 business days</td>
+                            <td>(INR) ₹2,817</td>
+                        </tr>
+                        <tr>
+                            <td>Standard <br>
+                                No additional import charges at delivery</td>
+                            <td>11-21 business days</td>
+                            <td>(INR) ₹2,817</td>
+                        </tr>
+                        <tr>
+                            <td>Express <br>
+                                No additional import charges at delivery</td>
+                            <td>6-11 business days</td>
+                            <td>(INR) ₹3,249</td>
+                        </tr>
+                        <tr>
+                            <td>Express <br>
+                                No additional import charges at delivery</td>
+                            <td>6-11 business days</td>
+                            <td>(INR) ₹3,249</td>
+                        </tr>
+                    </tbody>
+                </table>
+                    
+                
+                <div id="div6">
+                    <img class="img" src="data:image/png;base64,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" alt="">
+                    <h2>Payment</h2>
+                </div>
+                <div id="div7">
+                    <p>By placing your order, you agree to the Terms & Conditions and Privacy Policy of Borderfree from Pitney Bowes, Nordstrom’s international fulfillment service. Borderfree is an online merchant that is located at Shelton, US, 06484, 27 Waterview Drive, CT.</p>
+                </div>
+            </div>
+            <div id="box2">
+                <div>
+                    <img class="img" src="https://www.kindpng.com/picc/m/80-804194_cart-free-cart-icon-png-transparent-png.png" alt="">
+                    <h3>Your Oders</h3>
+                </div>
+                
+                <div>
+                    <p>Items :</p>
+                    <p></p>
+                </div>
+                <div>
+                    <p>Shipping :</p>
+                    <p>₹2,817</p>
+                </div>
+                <div>
+                    <p>Duties & Taxes :</p>
+                    <p>₹4,134</p>
+                </div>
+                <div>
+                    <h3>Total :</h3>
+                    <h3>(INR)</h3>
+                </div>
+            </div>
+</div>
+</body>
+</html>
+<script>
+    
+    let data = document.querySelector("form");
+    let dataarr = JSON.parse(localStorage.getItem("dataarr")) || []
+    console.log(dataarr)
+    data.addEventListener("submit", function(){
+        event.preventDefault()
+        let dataobj = {
+            email : data.email.value,
+            firstname : data.fname.value,
+            lastname : data.lname.value,
+            address : data.add.value,
+            city : data.citY.value,
+            pincode : data.code.value,
+            phone : data.phone.value,
+            location : "India"
+        }
+        dataarr.push(dataobj)
+        localStorage.setItem("dataarr", JSON.stringify(dataarr));
+        window.location.reload()
+        window.location.href = "./paymentspage.html"
+    })
+
+    
+</script>
