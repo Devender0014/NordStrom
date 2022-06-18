@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Checkout International | Nordstrom</title>
+    
 </head>
 <style>
     #container{
@@ -116,7 +117,7 @@
         padding: 15px;
         margin-top: 3px;
     }
-    #table > tbody > tr{
+    #table > tbody{
         border: 1px solid blue;
     }
     #button{
@@ -125,15 +126,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    #button > button{
         background-color: rgb(61,61,61);
         color: white;
-        padding: 15px;
-        width: 50%;
-        border: none;
-        border-radius: 5px;
+        margin-top: 15px;
+        height: 35px;
     }
+
+        
     #div6{
         display: flex;
         width: 90%;
@@ -227,10 +226,7 @@
                         <option value="India"> Location : India</option>
                          </select>   
                         <!-- <p></p> -->
-                        
-                        <a href="paymentspage.html">
-                            <button>Continue</button>
-                        </a>
+                            <button id="button">Continue</button>
                         
                     </form>
                     
@@ -272,9 +268,7 @@
                     </tbody>
                 </table>
                     
-                <div id="button">
-                    <button>Continue >></button>
-                </div>
+                
                 <div id="div6">
                     <img class="img" src="data:image/png;base64,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" alt="">
                     <h2>Payment</h2>
@@ -289,7 +283,6 @@
                     <h3>Your Oders</h3>
                 </div>
                 
-                <button id="enter">Continue >></button>
                 <div>
                     <p>Items :</p>
                     <p></p>
@@ -329,6 +322,8 @@
         }
         dataarr.push(dataobj)
         localStorage.setItem("dataarr", JSON.stringify(dataarr));
+        window.location.reload()
+        window.location.href = "./paymentspage.html"
     })
 
     
