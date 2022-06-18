@@ -1,33 +1,190 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-                                /* sorting css styles */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* sorting css styles */
 
-  #sortBy {
-    width: 100%;
-    display: flex;
-    justify-content: right;
-    margin-bottom: 5px;
-    margin-top: 10px;
-  }
-  #sortBy > select {
-    font-size: 20px;
-    padding: 4px;
-    color: rgb(52, 51, 51);
-  }
+#sortBy {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+#sortBy > select {
+  font-size: 20px;
+  padding: 4px;
+  color: rgb(52, 51, 51);
+}
 
-                                /* Body css styles */
+/* filter css styles */
+#filter-sort-container {
+  display: flex;
+}
+
+#filterBy {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+#filterBy > select {
+  font-size: 20px;
+  padding: 4px;
+  color: rgb(52, 51, 51);
+}
+
+/* navbar */
+#nav {
+  display: flex;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+#nav > h3 > img {
+  border-radius: 100%;
+  width: 20px;
+}
+#nav2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  font-size: 15px;
+}
+#nav2 > button {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+}
+#nav2 > input {
+  width: 40rem !important;
+}
+#nav3 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  border-top: 1px solid;
+  padding-top: 10px;
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
+  cursor: pointer;
+  color: black;
+}
+#nav3 > a:hover {
+  text-decoration: underline;
+}
+
+/* Body css styles */
+#parent {
+  margin: auto;
+  width: 94%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+#parent > div {
+  padding: 10px;
+  font-size: 16px;
+}
+#parent > div:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#parent > div > img {
+  width: 100%;
+  cursor: pointer;
+}
+#parent > div > h3 {
+  margin-top: 6px;
+}
+#parent > div > p {
+  color: rgb(108, 108, 108);
+  transition: color 0.3s;
+  margin-top: 10px;
+}
+#parent > div > button {
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 8px;
+  transition: background-color 0.5s, color 0.5s;
+}
+#parent > div > button:hover {
+  background-color: black;
+  color: white;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+span:last-child {
+  color: grey;
+  cursor: pointer;
+}
+.fa {
+  color: rgb(154, 154, 154);
+  cursor: pointer;
+}
+.checked {
+  color: orange;
+  cursor: pointer;
+}
+
+/* footer css */
+#container {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgb(249, 249, 249);
+  padding: 20px;
+}
+#c1 {
+  display: flex;
+  gap: 10px;
+}
+#c2 {
+  padding-left: 30px;
+}
+#c1 img {
+  width: 20px;
+  border-radius: 100%;
+}
+#c1 > h4,
+p {
+  padding-top: 20px;
+  color: gray;
+}
+#c2 img {
+  width: 25px;
+  padding: 1px;
+  padding-top: 20px;
+}
+#div27 {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
+
+@media all and (min-width: 480px) and (max-width: 720px) {
   #parent {
     margin: auto;
     width: 94%;
+    border: 1px solid red;
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-gap: 10px;
   }
@@ -44,21 +201,21 @@
     cursor: pointer;
   }
   #parent > div > h3 {
-    margin-top: 6px;
+    margin-top: 8px;
   }
   #parent > div > p {
     color: rgb(108, 108, 108);
     transition: color 0.3s;
     margin-top: 10px;
   }
-  button {
+  #parent > div > button {
     margin-top: 15px;
     background-color: white;
     border-radius: 4px;
     padding: 8px;
     transition: background-color 0.5s, color 0.5s;
   }
-  button:hover {
+  #parent > div > button:hover {
     background-color: black;
     color: white;
   }
@@ -66,6 +223,58 @@
   p:hover {
     text-decoration: underline;
   }
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+  #parent {
+    margin: auto;
+    width: 94%;
+    border: 1px solid red;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+  }
+  #parent > div {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+  #parent > div:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  #parent > div > img {
+    width: 100%;
+    cursor: pointer;
+  }
+  #parent > div > h3 {
+    margin-top: 8px;
+  }
+  #parent > div > p {
+    color: rgb(108, 108, 108);
+    transition: color 0.3s;
+    margin-top: 10px;
+  }
+  #parent > div > button {
+
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 8px;
+    transition: background-color 0.5s, color 0.5s;
+  }
+
+  #parent > div > button:hover {
+    background-color: black;
+    color: white;
+  }
+  p:hover {
+    text-decoration: underline;
+  }
+
   span:last-child {
     color: grey;
     cursor: pointer;
@@ -97,121 +306,3 @@
 #c2{
   padding-left: 30px;
 }
-#c1 img{
-  width: 20px;
-  border-radius: 100%;
-}
-#c1 > h4,p{
-  padding-top: 20px;
-  color: gray;
-}
-#c2 img{
-  width: 25px;
-  padding: 1px;
-  padding-top: 20px;
-}
-#div27{
-  display: flex;
-  width: 80%;
-  justify-content: space-around;
-}
-
-  @media all and (min-width:480px) and (max-width:720px){
-    #parent {
-        margin: auto;
-        width: 94%;
-        border: 1px solid red;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
-        grid-gap: 10px;
-      }
-      #parent > div {
-        padding: 10px;
-        font-size: 16px;
-      }
-      #parent > div:hover {
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-          rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-      }
-      #parent > div > img {
-        width: 100%;
-        cursor: pointer;
-      }
-      #parent > div > h3 {
-        margin-top: 8px;
-      }
-      #parent > div > p {
-        color: rgb(108, 108, 108);
-        transition: color 0.3s;
-        margin-top: 10px;
-      }
-      button {
-        margin-top: 15px;
-        background-color: white;
-        border-radius: 4px;
-        padding: 8px;
-        transition: background-color 0.5s, color 0.5s;
-      }
-      button:hover {
-        background-color: black;
-        color: white;
-      }
-    
-      p:hover {
-        text-decoration: underline;
-      }
-  }
-
-
-  @media all and (min-width:320px) and (max-width:479px){
-    #parent {
-        margin: auto;
-        width: 94%;
-        border: 1px solid red;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: auto;
-        grid-gap: 10px;
-      }
-      #parent > div {
-        padding: 10px;
-        font-size: 16px;
-        text-align: center;
-      }
-      #parent > div:hover {
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-          rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-      }
-      #parent > div > img {
-        width: 100%;
-        cursor: pointer;
-      }
-      #parent > div > h3 {
-        margin-top: 8px;
-      }
-      #parent > div > p {
-        color: rgb(108, 108, 108);
-        transition: color 0.3s;
-        margin-top: 10px;
-      }
-      button {
-        margin-top: 15px;
-        background-color: white;
-        border-radius: 4px;
-        padding: 8px;
-        transition: background-color 0.5s, color 0.5s;
-      }
-      button:hover {
-        background-color: black;
-        color: white;
-      }
-    
-      p:hover {
-        text-decoration: underline;
-      }
-  }

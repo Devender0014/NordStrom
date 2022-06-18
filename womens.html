@@ -13,14 +13,55 @@
     <style></style>
   </head>
   <body>
+    <!-- navbar -->
+    <div id="nav">
+      <h3>
+        Shipping outside of U.S or Canada?
+        <u>Learn About International Shipping</u>
+      </h3>
+
+      <h3>
+        <img src="https://n.nordstrommedia.com/alias/IN.gif" alt="" /> India
+      </h3>
+    </div>
+    <div id="nav2">
+      <h1>NORDSTROM</h1>
+      <input type="text" />
+      <button>Sign In</button>
+      <h5><a href="cart.html">Cart</a></h5>
+    </div>
+    <div id="nav3">
+      <a> Sale</a>
+      <a href="womens.html">Women</a>
+      <a href="Mens.html">Men</a>
+      <a href="kid.html">Kids</a>
+      <a>Young Adults</a>
+      <a>Activewear</a>
+      <a href="Home_appliance.html">Home</a>
+      <a>Beauty</a>
+      <a>Designer</a>
+      <a>Gifts</a>
+      <a>Brands</a>
+    </div>
+
     <!-- body -->
-    <div id="sortBy">
-      <select onChange="sortFun()" id="sorting">
-        <option value="">Sort The List</option>
-        <option value="All">Sort by brand: Ascending</option>
-        <option value="lowToHigh">Sort by price: low to high</option>
-        <option value="highToLow">Sort by price: high to low</option>
-      </select>
+    <div id="filter-sort-container">
+      <div id="filterBy">
+        <select id="filtering" onChange="filterFun()">
+          <option value="All">Filter by Brand</option>
+          <option value="Nordstrom">Nordstrom</option>
+          <option value="Halogen®">Halogen®</option>
+          <option value="NIC+ZOE">NIC+ZOE</option>
+        </select>
+      </div>
+      <div id="sortBy">
+        <select onChange="sortFun()" id="sorting">
+          <option value="AllProducts">Sort List</option>
+          <option value="All">Sort by brand: Ascending</option>
+          <option value="lowToHigh">Sort by price: low to high</option>
+          <option value="highToLow">Sort by price: high to low</option>
+        </select>
+      </div>
     </div>
 
     <div>
