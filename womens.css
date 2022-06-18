@@ -19,6 +19,54 @@
     padding: 4px;
     color: rgb(52, 51, 51);
   }
+                                /* navbar */
+    #nav{
+        display: flex;
+        
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        height: 25px;
+        justify-content: center;
+        align-items: center;
+        /* width: 113%; */
+        justify-content: space-around;
+        /* padding-left: 140px; */
+    }
+    #nav > h3 > img{
+        border-radius: 100%;
+        width: 20px;
+    }
+    #nav2{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    #nav2 > button{
+        padding: 5px;
+        /* font-size: 10px; */
+        border: none;
+        background-color: transparent;
+    }
+    #nav2 > input{
+        width: 40rem !important;
+    }
+    #nav3{
+        display: flex;
+        justify-content: space-around;
+        font-size: 15px;
+        border-top: 1px solid;
+        padding-top: 10px;
+        width: 90%;
+        margin: auto;
+        margin-top: 25px;
+        cursor: pointer;
+        color: black;
+    }
+    #nav3 > a:hover{
+        text-decoration: underline;
+    }
 
                                 /* Body css styles */
   #parent {
@@ -51,14 +99,14 @@
     transition: color 0.3s;
     margin-top: 10px;
   }
-  button {
+  #parent>div>button {
     margin-top: 15px;
     background-color: white;
     border-radius: 4px;
     padding: 8px;
     transition: background-color 0.5s, color 0.5s;
   }
-  button:hover {
+  #parent>div>button:hover {
     background-color: black;
     color: white;
   }
@@ -83,7 +131,6 @@
 #container{
   display: grid;
   grid-template-columns: 75% 25%;
-  /* width: 90%; */
   margin: auto;
   margin-top: 100px;
   background-color: rgb(249,249,249);
