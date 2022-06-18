@@ -32,8 +32,11 @@
     #nav2{
         display: flex;
         justify-content: space-around;
+        align-items: center;
         margin-top: 15px;
         font-size: 15px;
+        /* border: 1px solid; */
+
     }
     #nav2 > button{
         padding: 5px;
@@ -66,7 +69,7 @@
         margin-top: 20px;
         /* border: 1px solid; */
         text-align: center;
-        
+        /* font: optional; */
     }
     #div4 > button{
         margin-top: 10px;
@@ -512,6 +515,11 @@
 .checked{
     color: orange;
 }
+#nav2 > p{
+    align-items: center;
+    margin-bottom: 18px;
+    /* font-size: 30px; */
+}
 </style>
 <body>
     <div id="nav">
@@ -523,7 +531,7 @@
         <h1>NORDSTROM</h1>
         <input type="text">
         <button>Sign In </button>
-        <!-- <img src="nord bag.PNG" alt=""> -->
+        <p><a href="cart.html">Cart</a></p>
     </div>
     <div id="nav3">
         <a> Sale</a>
@@ -574,7 +582,7 @@
 
         </div>
         <div>
-            <img src="C:\Users\Dharmesh\Desktop\NORD Project\Nord\class2022.PNG">
+            <!-- <img src="C:\Users\Dharmesh\Desktop\NORD Project\Nord\class2022.PNG"> -->
             
         </div>
     </div>  
@@ -837,6 +845,7 @@
 
 
      productsobj.forEach(function(elem){
+        event.preventDefault()
         let box = document.createElement("div");
         let avatar = document.createElement("img");
     avatar.setAttribute("src",elem.image)
