@@ -1,0 +1,56 @@
+
+let MensData=[
+    {
+        type:"pant",
+        name:"Bonobos",
+        img:"https://n.nordstrommedia.com/id/sr3/4414f97d-cadf-41a4-ba5b-9aa8e5a0a580.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",        
+        price: "8,252.26"
+    },
+    {
+        type:"pant",
+        name:"vuori",
+        img:"https://n.nordstrommedia.com/id/sr3/cea59391-4670-41e4-9f96-583266948809.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        price:"7,418.70"
+    },
+    {
+        type:"pant",
+        name:"AG",
+        img:"https://n.nordstrommedia.com/id/sr3/0e7486a9-93bb-47d9-947c-5a4052ff4157.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        price:"16,504.53"
+    },
+    {
+        type:"pant",
+        name:"Devil-Dog Dungarees",
+        img:"https://n.nordstrommedia.com/id/sr3/0c42f6d8-50b0-47d4-b057-330b2622f7f9.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",     
+        price:"4,938.85"
+    },
+    {
+        type:"pant",
+        name:"Bonobos",
+        img:"https://n.nordstrommedia.com/id/sr3/f553ea53-5fe2-4b95-917b-d1250db7c161.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        price:"8,168.91"
+    },
+    {
+        type:"pant",
+        name:"vuori",
+        img:"https://n.nordstrommedia.com/id/sr3/3eba4372-4be0-4864-80ef-7adb28bca83f.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        price:"7,001.92"
+    },
+    {
+        type:"short",
+        name:"vuori",
+        img:"https://n.nordstrommedia.com/id/sr3/937d5b3b-70ec-411c-b430-514b9dc8b1e1.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        price:"5,668.22"
+    },
+    {
+        type:"short",
+        name:"Kore Shorts",
+        img:"https://n.nordstrommedia.com/id/sr3/6e25ad32-57e1-4038-8d58-cc5e1d433bb3.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        price:"5,668.22"
+    },
+    {
+        type:"short",
+        name:"Zella",
+        img:"https://n.nordstrommedia.com/id/sr3/68f62117-fff3-4d2a-b0bd-f851fde947df.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        price:"4,918.02"
+    }
