@@ -6,7 +6,7 @@ productData=[
     size: "X,XX,XXL",
     productID: "women1",
     catagory: "Casual",
-    img: "https://rukminim1.flixcart.com/image/603/724/l1qrjbk0/kids-t-shirt/t/q/w/4-5-years-kids-black-line-tshirt-ftc-fashions-original-imagd8gp8y5jcsqm.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/l1qrjbk0/kids-t-shirt/t/q/w/4-5-years-kids-black-line-tshirt-ftc-fashions-original-imagd8gp8y5jcsqm.jpeg?q=50",
   },
   {
     brand: "Gap",
@@ -15,7 +15,7 @@ productData=[
     size: "X,M,L,XX,XXL",
     productID: "women2",
     catagory: "festive",
-    img: "https://rukminim1.flixcart.com/image/603/724/l2urv680/kids-t-shirt/5/b/l/6-7-years-k45-fs-thunder-white-lewel-original-image4y7k4kgebw2.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/l2urv680/kids-t-shirt/5/b/l/6-7-years-k45-fs-thunder-white-lewel-original-image4y7k4kgebw2.jpeg?q=50",
   },
   {
     brand: "Puma",
@@ -24,7 +24,7 @@ productData=[
     size: "M,L,XX,XXS",
     productID: "women3",
     catagory: "party",
-    img: "https://imgs.search.brave.com/FH2vz3pduzJezWi1W25UrOUkA6bK59g2ZUJeimJ5P1Q/rs:fit:316:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4z/MFZ3S2J5OXZZSzdZ/T2Y4ZE1jeHZnSGFM/SCZwaWQ9QXBp",
+    image_url: "https://imgs.search.brave.com/FH2vz3pduzJezWi1W25UrOUkA6bK59g2ZUJeimJ5P1Q/rs:fit:316:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4z/MFZ3S2J5OXZZSzdZ/T2Y4ZE1jeHZnSGFM/SCZwaWQ9QXBp",
   },
   {
     brand: "Gap",
@@ -33,7 +33,7 @@ productData=[
     size: "X,M,L,XXS,XXL",
     productID: "women4",
     catagory: "formal",
-    img: "https://rukminim1.flixcart.com/image/603/724/ksru0sw0/kids-ethnic-set/v/x/f/2-3-years-digibc001-digimart-original-imag69ha2hensycf.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/ksru0sw0/kids-ethnic-set/v/x/f/2-3-years-digibc001-digimart-original-imag69ha2hensycf.jpeg?q=50",
   },
   {
     brand: "Bady Moo",
@@ -42,7 +42,7 @@ productData=[
     size: "X,M,L",
     productID: "women5",
     catagory: "workout",
-    img: "https://rukminim1.flixcart.com/image/603/724/k6mibgw0/kids-dress/d/5/4/10-11-years-blueribjacket-ftc-fashions-original-imafz5g6mffxnkd9.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/k6mibgw0/kids-dress/d/5/4/10-11-years-blueribjacket-ftc-fashions-original-imafz5g6mffxnkd9.jpeg?q=50",
   },
   {
     brand: "Pepe jeans",
@@ -51,7 +51,7 @@ productData=[
     size: "XXS,M,L",
     productID: "women6",
     catagory: "travel",
-    img: "https://rukminim1.flixcart.com/image/603/724/ethnic-set/a/h/j/1911-black-aj-dezines-12-18-months-original-imaegz3rfuxezpg9.jpeg?q=50",
+ image_url: "https://rukminim1.flixcart.com/image/603/724/ethnic-set/a/h/j/1911-black-aj-dezines-12-18-months-original-imaegz3rfuxezpg9.jpeg?q=50",
   },
   {
     brand: "Puma",
@@ -78,7 +78,7 @@ productData=[
     size: "XS,M,L,XX",
     productID: "women9",
     catagory: "festive",
-    img: "https://rukminim1.flixcart.com/image/603/724/ku79vgw0/kids-dress/c/b/g/6-7-years-blackrebjacket-ftc-fashions-original-imag7dajtgh9gjr6.jpeg?q=50",
+     image_url: "https://rukminim1.flixcart.com/image/603/724/ku79vgw0/kids-dress/c/b/g/6-7-years-blackrebjacket-ftc-fashions-original-imag7dajtgh9gjr6.jpeg?q=50",
   },
   {
     brand: "Gap",
@@ -87,7 +87,7 @@ productData=[
     size: "X,L,XX",
     productID: "women10",
     catagory: "party",
-    img: "https://rukminim1.flixcart.com/image/603/724/l31x2fk0/kids-dress/5/h/s/6-7-years-kids-birthday-party-wear-dress-virast-fashion-original-image96uwwtz3yjh.jpeg?q=50"
+     image_url: "https://rukminim1.flixcart.com/image/603/724/l31x2fk0/kids-dress/5/h/s/6-7-years-kids-birthday-party-wear-dress-virast-fashion-original-image96uwwtz3yjh.jpeg?q=50"
   },
   {
     brand: "Bee bay",
@@ -96,7 +96,7 @@ productData=[
     size: "M,L,XXS",
     productID: "women11",
     catagory: "formal",
-    img: "https://rukminim1.flixcart.com/image/603/724/k5r2mq80/kids-dress/g/g/h/10-11-years-multi-ftc-fashions-original-imafzde86edxjfrp.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/k5r2mq80/kids-dress/g/g/h/10-11-years-multi-ftc-fashions-original-imafzde86edxjfrp.jpeg?q=50",
   },
   {
     brand: "Kaniroot",
@@ -105,7 +105,7 @@ productData=[
     size: "S,M,L,XXl",
     productID: "women12",
     catagory: "workout",
-    img: "https://rukminim1.flixcart.com/image/603/724/kit6hzk0-0/kids-dress/p/v/5/3-4-years-preettywhitefrock-ftc-fashions-original-imafygshggbgxd9b.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/kit6hzk0-0/kids-dress/p/v/5/3-4-years-preettywhitefrock-ftc-fashions-original-imafygshggbgxd9b.jpeg?q=50",
   },
   {
     brand: "Bee bay",
@@ -114,7 +114,7 @@ productData=[
     size: "S,X,L,XXl",
     productID: "women13",
     catagory: "travel",
-    img: "https://rukminim1.flixcart.com/image/603/724/km6mxe80/kids-dress/d/s/u/7-8-years-gu0368-addyvero-original-imagf54hnmgvffr7.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/km6mxe80/kids-dress/d/s/u/7-8-years-gu0368-addyvero-original-imagf54hnmgvffr7.jpeg?q=50",
   },
   {
     brand: "Gap",
@@ -123,7 +123,7 @@ productData=[
     size: "S,M,X,XXL",
     productID: "women14",
     catagory: "sports",
-    img: "https://rukminim1.flixcart.com/image/603/724/jx6fiq80/kids-dress/r/g/j/6-7-years-dezine-red-net-frock-kaarigari-original-imafhzfjxafffkys.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/jx6fiq80/kids-dress/r/g/j/6-7-years-dezine-red-net-frock-kaarigari-original-imafhzfjxafffkys.jpeg?q=50",
   },
   {
     brand: "Puma",
@@ -132,7 +132,7 @@ productData=[
     size: "S,M,X,XXL",
     productID: "women15",
     catagory: "Casual",
-    img: "https://rukminim1.flixcart.com/image/603/724/k6xxua80/kids-dress/c/j/u/6-7-years-cmbo-flwhte-flpnk-apna-andaaz-original-imafp9wv4pcdhast.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/k6xxua80/kids-dress/c/j/u/6-7-years-cmbo-flwhte-flpnk-apna-andaaz-original-imafp9wv4pcdhast.jpeg?q=50",
   },
   {
     brand: "Kaniroot",
@@ -141,7 +141,7 @@ productData=[
     size: "S,M,L,XXL",
     productID: "women16",
     catagory: "festive",
-    img: "https://rukminim1.flixcart.com/image/603/724/l0cr4i80/kids-dress/l/u/f/5-6-years-redb-ftc-fashions-original-imagc5p8uftfugph.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/l0cr4i80/kids-dress/l/u/f/5-6-years-redb-ftc-fashions-original-imagc5p8uftfugph.jpeg?q=50",
   },
   {
     brand: "Puma",
@@ -150,7 +150,7 @@ productData=[
     size: "S,XX",
     productID: "women17",
     catagory: "party",
-    img: "https://rukminim1.flixcart.com/image/603/724/k3g73bk0/kids-dress/q/d/e/8-9-years-capbjali-ftc-fashions-original-imafmkwdqmx87t4g.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/k3g73bk0/kids-dress/q/d/e/8-9-years-capbjali-ftc-fashions-original-imafmkwdqmx87t4g.jpeg?q=50",
   },
   {
     brand: "Gap",
@@ -159,7 +159,7 @@ productData=[
     size: "S,M,XX,XXL",
     productID: "women18",
     catagory: "formal",
-    img: "https://rukminim1.flixcart.com/image/603/724/kwl0akw0/kids-dress/d/6/b/-original-imag988dnqnftmgb.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/kwl0akw0/kids-dress/d/6/b/-original-imag988dnqnftmgb.jpeg?q=50",
   },
   {
     brand: "Bee bay",
@@ -168,7 +168,7 @@ productData=[
     size: "M,XXL,XX",
     productID: "women19",
     catagory: "workout",
-    img: "https://rukminim1.flixcart.com/image/603/724/kwl0akw0/kids-dress/d/6/b/-original-imag988dnqnftmgb.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/kwl0akw0/kids-dress/d/6/b/-original-imag988dnqnftmgb.jpeg?q=50",
   },
   {
     brand: "Puma",
@@ -177,7 +177,7 @@ productData=[
     size: "M,X,L,XXL",
     productID: "women20",
     catagory: "travel",
-    img: "https://rukminim1.flixcart.com/image/603/724/l34ry4w0/skirt/r/s/j/28-1-vwskurgfo55041-van-heusen-original-imagebnpnmhypjtg.jpeg?q=50",
+     image_url: "https://rukminim1.flixcart.com/image/603/724/l34ry4w0/skirt/r/s/j/28-1-vwskurgfo55041-van-heusen-original-imagebnpnmhypjtg.jpeg?q=50",
   },
   {
     brand: "Puma",
@@ -186,7 +186,7 @@ productData=[
     size: "M,L,XXL",
     productID: "women21",
     catagory: "sport",
-    img: "https://rukminim1.flixcart.com/image/603/724/kdbzqfk0/skirt/m/f/p/28-kttwomensskirt18-kotty-original-imafu8samhkjn4a8.jpeg?q=50",
+     image_url: "https://rukminim1.flixcart.com/image/603/724/kdbzqfk0/skirt/m/f/p/28-kttwomensskirt18-kotty-original-imafu8samhkjn4a8.jpeg?q=50",
   },
   {
     brand: "Gap",
@@ -195,7 +195,7 @@ productData=[
     size: "S,XX",
     productID: "women22",
     catagory: "Casual",
-    img: "https://rukminim1.flixcart.com/image/603/724/l0y6qa80/kids-lehenga-choli/v/l/u/4-5-years-gajra-the-fashion-prime-original-imagcmgezfqsknry.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/l0y6qa80/kids-lehenga-choli/v/l/u/4-5-years-gajra-the-fashion-prime-original-imagcmgezfqsknry.jpeg?q=50",
   },
   {
     brand: "Puma",
@@ -204,7 +204,7 @@ productData=[
     size: "XXL",
     productID: "women23",
     catagory: "festive",
-    img: "https://rukminim1.flixcart.com/image/603/724/kynb6vk0/kids-ethnic-set/8/x/t/2-3-years-blue-sharara-ngudi-original-imagau4de3cxs5hs.jpeg?q=50"
+     image_url: "https://rukminim1.flixcart.com/image/603/724/kynb6vk0/kids-ethnic-set/8/x/t/2-3-years-blue-sharara-ngudi-original-imagau4de3cxs5hs.jpeg?q=50"
   },
   {
     brand: "Gap",
@@ -213,7 +213,7 @@ productData=[
     size: "S,X,L",
     productID: "women24",
     catagory: "party",
-    img: "https://rukminim1.flixcart.com/image/603/724/kjx6tu80/kids-ethnic-set/m/w/q/15-16-years-7047-black-aj-dezines-original-imafzdvgwseg23kq.jpeg?q=50",
+     image_url: "https://rukminim1.flixcart.com/image/603/724/kjx6tu80/kids-ethnic-set/m/w/q/15-16-years-7047-black-aj-dezines-original-imafzdvgwseg23kq.jpeg?q=50",
   },
   {
     brand: "Kaniroot",
@@ -240,7 +240,7 @@ function show(productData){
         let div=document.createElement("div")
       
         let img=document.createElement("img")
-        img.setAttribute("src",elm.img)
+        img.setAttribute("src",elm. image_url)
       
         let Bname=document.createElement("h2")
         Bname.innerText=elm.brand

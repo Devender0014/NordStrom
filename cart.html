@@ -177,10 +177,15 @@
     
     let total= document.createElement("h2")
         document.querySelector("#total").append(total)
-        total.innerText="Total: "+total_price;
+        total.innerText="Total: "+ total_price.toFixed(2);
+        localStorage.setItem("datatotal",JSON.stringify(total_price))
+        console.log(total_price)
         let button=document.createElement("Button")
         document.querySelector("#total").append(button)
         button.innerText="Buy"
+        button.addEventListener("click", function(){
+            window.location.href = "./checkoutpage.html"
+        })
        }
      display(cartfromls);
      function deletedata(index){
