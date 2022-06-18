@@ -219,6 +219,7 @@ p {
     background-color: black;
     color: white;
   }
+
   p:hover {
     text-decoration: underline;
   }
@@ -258,12 +259,14 @@ p {
     margin-top: 10px;
   }
   #parent > div > button {
+
     margin-top: 15px;
     background-color: white;
     border-radius: 4px;
     padding: 8px;
     transition: background-color 0.5s, color 0.5s;
   }
+
   #parent > div > button:hover {
     background-color: black;
     color: white;
@@ -271,4 +274,35 @@ p {
   p:hover {
     text-decoration: underline;
   }
+
+  span:last-child {
+    color: grey;
+    cursor: pointer;
+  }
+  .fa {
+    color: rgb(154, 154, 154);
+    cursor: pointer;
+  }
+  .checked {
+    color: orange;
+    cursor: pointer;
+  }
+
+/* footer css */
+#container{
+  display: grid;
+  grid-template-columns: 75% 25%;
+  /* width: 90%; */
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgb(249,249,249);
+  padding: 20px;
+}
+#c1{
+  display: flex;
+  gap: 10px;
+
+}
+#c2{
+  padding-left: 30px;
 }
