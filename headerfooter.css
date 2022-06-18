@@ -1,0 +1,123 @@
+#nav {
+    display: flex;
+
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    /* width: 113%; */
+    /* justify-content: space-around; */
+    /* padding-left: 140px; */
+}
+
+#nav>h3>img {
+    border-radius: 100%;
+    width: 20px;
+
+}
+
+#text {
+    text-align: center;
+}
+
+#india {
+    margin-left: 500px;
+}
+
+#nav2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 15px;
+    /* border: 1px solid; */
+
+}
+
+#nav2>button {
+    padding: 5px;
+    /* font-size: 10px; */
+    border: none;
+    background-color: transparent;
+}
+
+#nav2>input {
+    width: 40rem !important;
+    height: 40px;
+}
+
+#nav3 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    border-top: 1px solid;
+    padding-top: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    cursor: pointer;
+    color: black;
+}
+
+#nav3>a:hover {
+    text-decoration: underline;
+}
+
+/* navbar css end here */
+/* footer css starts here */
+#container {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    /* width: 90%; */
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(249, 249, 249);
+    padding: 20px;
+}
+
+#c1 {
+    display: flex;
+    gap: 10px;
+
+}
+
+#c2 {
+    padding-left: 30px;
+}
+
+#c1 img {
+    width: 20px;
+    border-radius: 100%;
+}
+
+#c1>h4,
+p {
+    padding-top: 20px;
+    color: gray;
+}
+
+#c2 img {
+    width: 25px;
+    padding: 1px;
+    padding-top: 20px;
+}
+
+#div27 {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.checked {
+    color: orange;
+}
+
+#nav2>p {
+    align-items: center;
+    margin-bottom: 18px;
+    /* font-size: 30px; */
+}
+
+/* footer ends here */
