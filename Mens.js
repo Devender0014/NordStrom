@@ -52,35 +52,35 @@ let MensData=[
         type:"short",
         ProductID:"Men_s678#8",
         name:"Kore Shorts",
-        img_url:"https://n.nordstrommedia.com/id/sr3/6e25ad32-57e1-4038-8d58-cc5e1d433bb3.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        image_url:"https://n.nordstrommedia.com/id/sr3/6e25ad32-57e1-4038-8d58-cc5e1d433bb3.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
         price:"5668.22"
     },
     {
         type:"short",
         ProductID:"Men_s678#9",
         name:"Zella",
-        img_url:"https://n.nordstrommedia.com/id/sr3/68f62117-fff3-4d2a-b0bd-f851fde947df.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        image_url:"https://n.nordstrommedia.com/id/sr3/68f62117-fff3-4d2a-b0bd-f851fde947df.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
         price:"4918.02"
     },
     {
         type:"jeans",
         ProductID:"Men_j678#10",
         name:"PAIGE",
-        img_url:"https://n.nordstrommedia.com/id/sr3/f305d54f-b29d-44cd-b946-8667a0964ab6.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        image_url:"https://n.nordstrommedia.com/id/sr3/f305d54f-b29d-44cd-b946-8667a0964ab6.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
         price:"15420.90"
     },
     {
         type:"jeans",
         ProductID:"Men_j678#11",
         name:"PAIGE",
-        img_url:"https://n.nordstrommedia.com/id/sr3/f305d54f-b29d-44cd-b946-8667a0964ab6.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        image_url:"https://n.nordstrommedia.com/id/sr3/f305d54f-b29d-44cd-b946-8667a0964ab6.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
         price:"12420.90"
     },
     {
         type:"jeans",
         ProductID:"Men_j678#12",
         name:"PURPLE BRAND",
-        img_url:"https://n.nordstrommedia.com/id/sr3/bf62c12f-2694-476f-b2a2-f8b4a290ae40.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        image_url:"https://n.nordstrommedia.com/id/sr3/bf62c12f-2694-476f-b2a2-f8b4a290ae40.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
         price:"15670.97"
     },
     {
@@ -125,7 +125,7 @@ let MensData=[
         ProductID:"Men_stp678#18",
         name:"Matrix",
         image_url:"https://n.nordstrommedia.com/id/sr3/cfe14caf-6c6e-4154-8687-c0b2cf757c4c.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
-        price:"7,750"
+        price:"7750"
     }
 
 
