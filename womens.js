@@ -252,7 +252,7 @@ let productData = [
 ];
 
 let mainDiv = document.querySelector("#parent");
-let cartLs = JSON.parse(localStorage.getItem("cart-page")) || [];
+let cartLs = JSON.parse(localStorage.getItem("cart_page")) || [];
 
 displayData(productData);
 
@@ -276,10 +276,10 @@ function displayData(productData) {
     addToCart.addEventListener("click", function () {
       if (addToCartFun(el.productID) === true) {
         cartLs.push(el);
-        localStorage.setItem("cart-page", JSON.stringify(cartLs));
+        localStorage.setItem("cart_page", JSON.stringify(cartLs));
         alert("Product successfully added to cart");
       } else {
-        alert("Product Already exists");
+        alert("Product Already In The Cart");
       }
     });
     card.append(image, pTag, hTag, pTag2, hTag2, addToCart);
