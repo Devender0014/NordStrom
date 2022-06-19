@@ -60,7 +60,7 @@ productData=[
     size: "XXL,M,L",
     productID: "women7",
     catagory: "sports",
-    img: "https://rukminim1.flixcart.com/image/603/724/kwfaj680/kids-ethnic-set/l/d/p/6-7-years-7023-maroon-aj-dezines-original-imag93vgcmkhtd6s.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/kwfaj680/kids-ethnic-set/l/d/p/6-7-years-7023-maroon-aj-dezines-original-imag93vgcmkhtd6s.jpeg?q=50",
   },
   {
     brand: "Gap",
@@ -69,7 +69,7 @@ productData=[
     size: "X,M,L,XX",
     productID: "women8",
     catagory: "Casual",
-    img: "https://rukminim1.flixcart.com/image/603/724/kk4c13k0/kids-dress/p/b/i/9-10-years-child-3209-child-dress-navy-01-neysa-original-imafzj7dhjqkpy6p.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/kk4c13k0/kids-dress/p/b/i/9-10-years-child-3209-child-dress-navy-01-neysa-original-imafzj7dhjqkpy6p.jpeg?q=50",
   },
   {
     brand: "Bady Moo",
@@ -222,7 +222,7 @@ productData=[
     size: "S,XXL,XX",
     productID: "women25",
     catagory: "formal",
-    img: "https://rukminim1.flixcart.com/image/603/724/kv8fbm80/skirt/g/f/l/s-166-maroon-aahwan-original-imag86b5zmgzdyuh.jpeg?q=50",
+    image_url: "https://rukminim1.flixcart.com/image/603/724/kv8fbm80/skirt/g/f/l/s-166-maroon-aahwan-original-imag86b5zmgzdyuh.jpeg?q=50",
   },
 ]
 
@@ -249,7 +249,7 @@ function show(productData){
         Pname.innerText=elm.name
       
         let price=document.createElement("h3")
-price.innerText=elm.price
+      price.innerText=elm.price
         
       
         let btn=document.createElement("button")

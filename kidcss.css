@@ -10,7 +10,7 @@
      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
   }
   #display>div>img{
-    display:flex;width:50%;text-align: center;justify-content: center;display:flex;justify-content: center;text-align: center;margin-left: 100px;height:300px ;margin-top: 20px;
+    display:flex;width:50%;text-align: center;justify-content: center;display:flex;justify-content: center;text-align: center;margin-left: 100px;height:250px ;margin-top: 20px;
   }
   
   

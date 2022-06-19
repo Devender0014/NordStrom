@@ -1,4 +1,3 @@
-
 #Mens_product
 {
     display: grid;
@@ -12,18 +11,116 @@ img{
     width: 100%;
     height: 400px;
 }
-
+#Footer
+{
+    
+    display: flex;
+    width:60%; 
+    margin: 100px;
+    margin: 100px auto;
+    justify-content: space-around;
+    text-align: center;
+      
+}
+#Footer>div>p:first-child
+{
+    font-weight: bold;
+    
+}
+#Footer>div>p:hover
+{
+    color:gray;
+    text-decoration:underline;
+}
 .product>p
 {
     font-family: "Poppins",sans-serif;
     font-weight: 600;
 }
-.product{
+.product:hover{
  box-shadow: 1px 1px 5px gray;
-
 }
 p+button
 {
+    background-color: black;
+    color:aliceblue;
+    font-family: 'Poppins',sans-serif;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    width:100%;
+    padding: 10px 0 ;
+}
+.select
+{
+ margin-left:500px ;   
+
+}
+#First_Nav{
+    display: flex;
+    width:100%;
+    height:60px;
+    justify-content: space-around;
+    align-items: center;
+}
+#company{
+    display:flex;
+    font-weight: bold;
+    font-size: 32px;
+}
+#Navbar
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#Navbar>p:hover
+{
+    text-decoration: underline;
+}
+#Mens_product
+{
+    display: grid;
+    grid-template-columns:repeat(4,250px);
+    grid-template-rows: auto;
+    gap:30px 10px;
+    justify-content: center;
+}
+img{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+#Footer
+{
+    
+    display: flex;
+    width:60%; 
+    margin: 100px;
+    margin: 100px auto;
+    justify-content: space-around;
+    text-align: center;      
+}
+#Footer>div>p:first-child
+{
+    font-weight: bold;
+    
+}
+#Footer>div>p:hover
+{
+    color:gray;
+    text-decoration:underline;
+}
+.product>p
+{
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+}
+.product:hover{
+ box-shadow: 1px 1px 5px gray;
+}
+p+button
+{
+
     background-color: black;
     color:aliceblue;
     font-family: 'Poppins',sans-serif;
